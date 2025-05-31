@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "halo-blog-publisher": {
+      "command": "node",
+      "args": ["/path/to/your/halo-mcp-server.js"],
+      "env": {
+        "HALO_BASE_URL": "http://localhost:8090",
+        "HALO_TOKEN": "your_halo_api_token_here"
+      }
+    }
+  }
+}

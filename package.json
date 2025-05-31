@@ -1,0 +1,27 @@
+{
+  "name": "halo-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP服务器，用于通过Halo API发布博客文章",
+  "type": "module",
+  "main": "halo-mcp-server.js",
+  "scripts": {
+    "start": "node halo-mcp-server.js",
+    "dev": "node --inspect halo-mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "halo",
+    "blog",
+    "publisher",
+    "claude"
+  ],
+  "author": "laogao",
+  "license": "MIT"
+}
